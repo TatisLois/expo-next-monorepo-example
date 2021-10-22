@@ -6,6 +6,7 @@ import { DripsyProvider } from 'dripsy';
 
 import { theme } from 'app/theme';
 import { HelloWorld } from 'app/hello-world';
+import BreakpointDemo from 'app/breakpoints-demo'
 
 enableScreens(true);
 
@@ -14,7 +15,7 @@ export default function App() {
     <DripsyProvider theme={theme}>
       <SafeAreaProvider>
         <StatusBar style="dark" />
-        <HelloWorld />
+        <BreakpointDemo />
       </SafeAreaProvider>
     </DripsyProvider>
   );
